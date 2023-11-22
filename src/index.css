@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    /*les tirets (--) c'est pour indiquer qu'on a les proprietes customiser*/
+    --colorBg: rgba(3, 60, 70, 1); /*used two(-) to declare css custom variable*/
+    --colorBgVariant: #000000;
+    --colorPrimary: #007bff;
+    --ColorPrimaryVariant:#f5f5f5;
+    --colorWhite:#c0c0c0;
+    --colorLight:#ffffff;
+    --containerWidth-lg:80%; /*taille du container qu'on va utiliser dans differentes*/
+    --containerWidth-md:86%;/*tailles d'ecrans*/
+    --containerWidth-sm:90%;
+    --transition: all 400ms ease;
+    --link:#778899;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: block;
+}
+body{
+    font-family: 'Roboto Slab', sans-serif;
+    background: var(--colorBg);
+    color: var(--colorWhite);
+    line-height: 1.6;
+    position: relative;
+   /* background-image: url(../src/assets/templates/fond.jpg);*/
+}
+body::before{
+    background-image: url(../src/assets/templates/fond.png);
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    position:fixed;
+    background-size: cover;
+    z-index: -1; /* mettre le background image derriere tous les elements de la page et permettre que les liens soient clickables */
+}
+.container{
+    width: var(--containerWidth-lg);
+    margin:0 auto;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 500;
+}
+h1{
+    font-size: 2.5rem; /*rem: root em pour rendre le texte de h1 2.5 fois plus grand que le font utiliser par les element du root */
+}
+section{
+    margin-top: 8rem;
+}
+section > h2, section > h5{
+    text-align: center;
+    color: var(--colorLight);
+}
+section > h2{
+    color: var(--colorPrimary);
+    margin-bottom: 3rem;
+}
+.light-text{
+    color: var(--colorLight);
+}
+
+a{
+    color: var(--colorPrimary);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--link);
+}
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--colorPrimary);
+    padding: 0.65rem 2.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--colorPrimary);
+    transition: var(--transition);
+}
+.btn:hover{
+    background: var(--colorWhite);
+    color:var(--colorBg);
+    border-color: transparent;
+    box-shadow: 0 0 5px var(--colorBgVariant), 0 0 25px var(--colorBgVariant), 0 0 50px var(--colorBgVariant), 0 0 100px var(--colorBgVariant), 0 0 200px var(--colorBgVariant);
+}
+.btnPrimary{
+    background: var(--colorPrimary);
+    color: var(--colorBg);
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*differentes vues sur differents appareils*/
+@media screen and (max-width:1024px) {
+    .container{
+        width: var(--containerWidth-md);/*pour les medias comme des tabletes*/
+    }
+    section{
+        margin-top: 6rem;
+    }
+    .ICan_container{
+        margin-left: 0%;
+    }
+    }
+    @media screen and (max-width:600px) {
+    .container{
+        width: var(--containerWidth-sm);/*pour les petits medium ex: telephones*/
+    }
+    section > h2{
+        margin-bottom: 2rem;
+    }
+    .ICan_container{
+        margin-left: 0%;
+    }
+    }

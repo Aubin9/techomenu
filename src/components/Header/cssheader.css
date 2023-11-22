@@ -1,0 +1,36 @@
+header {
+  /*height: 100vh; vh correspond to viewport height la taille de la hauteur*/
+  padding-top: 8rem;
+  /*overflow: hidden;*/
+}
+
+/*Presentation*/
+.header_container {
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.scroll {
+  position: fixed;
+  right: 8rem;
+  bottom: 5rem;
+  /*transform: rotate(90deg);
+    font-weight: 300;*/
+  font-size: 2rem;
+}
+
+/*differentes vues sur differents appareils*/
+@media only screen and (max-width: 1024px) {
+  /*pour les medias comme des tabletes*/
+  
+}
+
+@media only screen and (max-width: 600px) {
+  /*pour les petits medium ex: telephones*/
+  
+  .reseaux_sociaux,
+  .scroll {
+    display: none;
+  }
+}

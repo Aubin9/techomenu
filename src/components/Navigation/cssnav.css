@@ -1,0 +1,81 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    padding: 0rem .7rem;
+    position: fixed;
+    z-index: 2;
+    gap: .8rem;
+    backdrop-filter: blur(15px);
+  }
+  picture > a > img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--colorLight);
+    font-size: 1.1rem;
+  }
+  
+  nav li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:hover > .dropdown {
+  display:block;
+}
+.dropdown {
+  display: none;
+}
+
+nav li:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+}
+/*nav{
+    background: rgba(0, 0, 0, 0.3);
+    width:max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: .8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--colorLight);
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active{
+    background: var(--colorPrimary);
+    color: var(--colorBg);
+}*/
