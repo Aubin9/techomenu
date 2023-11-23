@@ -19,6 +19,7 @@ function Nav() {
       <picture>
         <a href="https://techomenu.vercel.app"><img src={logo} alt="logo" /></a>
       </picture>
+      <div className='nav_bar'>
       <li><a href="#accueil" title='accueil' > Accueil</a></li>
       <li>
         <a onClick={toggleDropdown}><FcCollapse /> Catégories</a>
@@ -35,6 +36,7 @@ function Nav() {
       </li>
       <li><a href="#about" title='A Propos' >À Propos </a></li>
       <li><a href="#contact" title='contact'>Nous Contacter</a></li>
+      </div>
     </nav>
   )
 }

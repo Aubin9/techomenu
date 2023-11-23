@@ -37,49 +37,49 @@ export const services = () => {
   const data0 = [
     {
       image : img0,
-      prix: 'XCFA',
+      prix: '1000 XCFA',
       id: 0,
       title:'Ailes de poulet',
       description:'Des ailes de poulet cuites et assaisonnées, souvent servies avec une sauce épicée ou une trempette'
     },
     {
       image : img1,
-      prix: 'XCFA',
+      prix: '1750 XCFA',
       id: 1,
       title:'Salade verte',
       description: 'Une salade composée de divers légumes verts, tels que la laitue, les épinards, la roquette, accompagnée de vinaigrette ou d\'autres assaisonnements'
     },
     {
       image : img2,
-      prix: 'XCFA',
+      prix: '800 XCFA',
       id: 2,
       title:'Bruschetta',
       description: 'Des tranches de pain grillé garnies de tomates fraîches, d\'ail, d\'huile d\'olive et de basilic'
     },
     {
       image : img3,
-      prix: 'XCFA',
+      prix: '500 XCFA',
       id: 3,
       title:'Escargots',
       description: 'Des escargots cuits au beurre et à l\'ail. un plat ideal de viande "congo meat" qui peut etre accompagné avec du pain'
     },
     {
       image : img4,
-      prix: 'XCFA',
+      prix: '1000 XCFA',
       id: 4,
       title:'Water fufu and Eru',
       description: 'L\'eru est une sauce verte préparée à partir des feuilles de l\'eru et accompagnée de water fufu cuits'
     },
     {
       image : img5,
-      prix: 'XCFA',
+      prix: '850 XCFA',
       id: 5,
       title:'Koki',
       description: 'Le Koki est un plat camerounais fait à partir de haricots écrasés, géneralement consomé avec de la banane, plantain, manioc et autre'
     },
     {
       image : img6,
-      prix: 'XCFA',
+      prix: '400 XCFA',
       id: 6,
       title:'Pile pommes',
       description: 'Les pommes de terre pilées sont des pommes de terre cuites et pilé avec du haricot et de l\'huile de palme'
@@ -88,42 +88,42 @@ export const services = () => {
   const data1 = [
     {
       image : img7,
-      prix: 'XCFA',
+      prix: '1000 XCFA',
       id: 7,
       title:'Steak grillé',
       description: 'Un morceau de viande de bœuf grillé selon la cuisson souhaitée, généralement servi avec des accompagnements tels que des légumes, des frites ou une purée de pommes de terre.'
     },
     {
       image : img8,
-      prix: 'XCFA',
+      prix: '7500 XCFA',
       id: 8,
       title:'Poulet rôti',
       description: 'Un poulet entier rôti au four, assaisonné avec des épices et des herbes, servi avec des légumes ou des pommes de terre rôties.'
     },
     {
       image : img9,
-      prix: 'XCFA',
+      prix: '450 XCFA',
       id: 9,
       title:'Pâtes',
       description: 'Une variété de plats de pâtes, comme les spaghetti, les fettuccine, les penne, accompagnés de différentes sauces comme la sauce tomate, la sauce à la crème, la sauce pesto ou la sauce bolognaise.'
     },
     {
       image : img10,
-      prix: 'XCFA',
+      prix: '500 XCFA',
       id: 10,
       title:'Risotto',
       description: 'Un plat italien à base de riz cuit lentement dans un bouillon, souvent mélangé avec des légumes, des fruits de mer ou de la viande.'
     },
     {
       image : img11,
-      prix: 'XCFA',
+      prix: '1300 XCFA',
       id: 12,
       title:'Burger',
       description: 'Un sandwich composé d\'un steak haché grillé ou d\'une alternative végétarienne, accompagné de garnitures telles que le fromage, les légumes, les condiments et les frites.'
     },
     {
       image : img13,
-      prix: 'XCFA',
+      prix: '2000 XCFA',
       id: 13,
       title:'SCurry de lentilles',
       description: 'Un plat végétarien ou végétalien à base de lentilles mijotées dans une sauce épicée, souvent servi avec du riz ou du pain.'
@@ -132,35 +132,35 @@ export const services = () => {
   const data2 = [
     {
       image : img14,
-      prix: 'XCFA',
+      prix: '500 XCFA',
       id: 14,
       title:'Mille-feuille',
       description:'Un dessert composé de fines couches de pâte feuilletée et de crème pâtissière, souvent garni de glaçage ou de sucre en poudre.'
     },
     {
       image : img15,
-      prix: 'XCFA',
+      prix: '800 XCFA',
       id: 15,
       title:'Cheese-cake',
       description:'Un gâteau au fromage crémeux, cuit au four, souvent servi avec un coulis de fruits ou une garniture sucrée.'
     },
     {
       image : img16,
-      prix: 'XCFA',
+      prix: '1100 XCFA',
       id: 16,
       title:'Croustade aux pommes',
       description:'Un dessert à base de pommes cuites et légèrement sucrées, recouvertes d\'une couche croustillante de pâte.'
     },
     {
       image : img17,
-      prix: 'XCFA',
+      prix: '200 XCFA',
       id: 17,
       title:'Profiteroles',
       description:'Des petits choux garnis de crème pâtissière et généralement nappés de chocolat chaud'
     },
     {
       image : img18,
-      prix: 'XCFA',
+      prix: '100 XCFA',
       id: 18,
       title:'Crêpes',
       description:'Des fines crêpes garnies de diverses saveurs sucrées, telles que le sirop d\'érable, le sucre en poudre, la confiture, les fruits frais ou la crème fouettée.'
@@ -169,14 +169,14 @@ export const services = () => {
   const data3 = [
     {
       image : img19,
-      prix: 'XCFA',
+      prix: '3500 XCFA',
       id: 19,
       title:'Plats de fruits de mer',
       description:'Des plats spéciaux mettant en avant les fruits de mer frais et de saison, tels que les plateaux de fruits de mer, les poissons entiers grillés ou les fruits de mer préparés de manière inventive.'
     },
     {
       image : img20,
-      prix: 'XCFA',
+      prix: '1200 XCFA',
       id: 20,
       title:'Plats végétariens ou végétaliens',
       description:'Des plats spéciaux conçus pour les clients qui suivent un régime végétarien ou végétalien, mettant en valeur les légumes, les légumineuses et les alternatives végétales.'
@@ -185,21 +185,21 @@ export const services = () => {
   const data4 = [
     {
       image : img21,
-      prix: 'XCFA',
+      prix: '1300 XCFA',
       id: 21,
       title:'Salades',
       description:'Des salades composées avec des légumes frais, des herbes, des fruits, des noix et des vinaigrettes.'
     },
     {
       image : img22,
-      prix: 'XCFA',
+      prix: '800 XCFA',
       id: 22,
       title:'Ratatouille',
       description:'Un plat provençal composé d\'aubergines, de courgettes, de poivrons, d\'oignons et de tomates, mijotés ensemble avec des herbes et des épices.'
     },
     {
       image : img23,
-      prix: 'XCFA',
+      prix: '500 XCFA',
       id: 23,
       title:'Risotto aux champignons',
       description:'Un plat italien à base de riz cuit lentement dans un bouillon crémeux avec des champignons, du fromage et des herbes.'
@@ -208,49 +208,49 @@ export const services = () => {
   const data5 = [
     {
       image : img25,
-      prix: 'XCFA',
+      prix: '150 XCFA',
       id: 25,
       title:'Eau',
       description:'L\'eau est une boisson de base et essentielle dans tous les restaurants. Elle peut être servie plate ou pétillante.'
     },
     {
       image : img26,
-      prix: 'XCFA',
+      prix: '250 XCFA',
       id: 26,
       title:'Sodas et boissons gazeuses',
       description:'Des boissons rafraîchissantes et pétillantes, telles que les sodas classiques, les limonades, les colas, les boissons aux fruits gazeuses, etc.'
     },
     {
       image : img27,
-      prix: 'XCFA',
+      prix: '400 XCFA',
       id: 27,
       title:'Jus de fruits',
       description:' Des jus de fruits frais pressés ou des jus de fruits en bouteille, tels que le jus d\'orange, de pomme, de raisin, de pamplemousse, etc.'
     },
     {
       image : img28,
-      prix: 'XCFA',
+      prix: '150 XCFA',
       id: 28,
       title:'Thé',
       description:'Une boisson chaude ou froide préparée en infusant des feuilles de thé, avec une variété de saveurs disponibles, comme le thé noir, le thé vert, le thé à la menthe, etc.'
     },
     {
       image : img29,
-      prix: 'XCFA',
+      prix: '600 XCFA',
       id: 29,
       title:'Cocktails',
       description:'Des boissons alcoolisées mélangées à base d\'alcools forts, de jus de fruits, de sirops et d\'autres ingrédients aromatiques. Certains cocktails populaires comprennent le Mojito, le Margarita, le Cosmopolitan, etc.'
     },
     {
       image : img30,
-      prix: 'XCFA',
+      prix: '6000 XCFA',
       id: 30,
       title:'Vins',
       description:'Une sélection de vins rouges, blancs et rosés, qui peuvent être proposés au verre ou à la bouteille pour accompagner les plats.'
     },
     {
       image : img31,
-      prix: 'XCFA',
+      prix: '10 000 XCFA', 
       id: 31,
       title:'Spiritueux',
       description:'Des boissons alcoolisées telles que le whisky, la vodka, le rhum, le gin, la tequila, etc., qui peuvent être consommées seules ou utilisées comme base pour des cocktails.'

@@ -84,5 +84,8 @@ li{
     .footer_media{
         margin-bottom: 2.6rem;
     }
+    .footer_logo{
+        margin-left: 0%;
+    }
 
 }
